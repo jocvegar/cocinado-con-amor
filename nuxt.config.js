@@ -12,7 +12,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css', integrity: 'sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=', crossorigin: 'anonymous' }
     ]
   },
   /*
@@ -61,8 +62,5 @@ export default {
     */
     extend (config, ctx) {
     }
-  },
-  generate: {
-    fallback: true
   },
 }
