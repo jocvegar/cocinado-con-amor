@@ -22,7 +22,7 @@
           <li class="my-4"><nuxt-link to="/chefs/nutricion-deportiva-fdj3eb">nutricion-deportiva-fdj3eb</nuxt-link></li>
           <li class="my-4"><nuxt-link to="/chefs/tecnicas-en-decoraciones-para-pasteles-4ebf41">tecnicas-en-decoraciones-para-pasteles-4ebf41</nuxt-link></li>
           <li class="my-4"><nuxt-link to="/chefs/brunch-para-todos-f6dbbe">brunch-para-todos-f6dbbe</nuxt-link></li>
-          <li class="my-4"><nuxt-link to="/chefs/parillada-tailandesa-484i25">parillada-tailandesa-484i25</nuxt-link></li>
+          <li class="my-4"><nuxt-link to="/chefs/parilla-tailandesa-484i25">parilla-tailandesa-484i25</nuxt-link></li>
           <li class="my-4"><nuxt-link to="/chefs/salsa-y-aderezos-para-tus-recetas-eh8b5g">salsa-y-aderezos-para-tus-recetas-eh8b5g</nuxt-link></li>
           <li class="my-4"><nuxt-link to="/chefs/bar-de-orzo-hi4782">bar-de-orzo-hi4782</nuxt-link></li>
           <li class="my-4"><nuxt-link to="/chefs/cocina-asiatica-6g193i">cocina-asiatica-6g193i</nuxt-link></li>
