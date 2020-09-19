@@ -1,6 +1,8 @@
 <template>
-    <div class="teal-background grid grid-cols-1 sm:grid-cols-2 gap-4 pt-8">
-        <div class="text-center h-32 ml-16">1</div>
+    <div class="teal-background flex justify-center content-center flex-wrap h-32">
+        <h1 class="text-center text-3xl text-gray-200 font-medium antialiased">
+                Para más información
+        </h1>
     </div>
 </template>
 
