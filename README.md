@@ -1,6 +1,6 @@
-# cocinando-con-amor
+# Cocinando Con Amor
 
-> Cocinando con amor
+> Fundación Hondureña Para El Niño Con Cancer
 
 ### Links
 
