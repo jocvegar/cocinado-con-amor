@@ -1,29 +1,32 @@
 <template>
-  <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-red-700 mb-3">
+  <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg my-red-bg mb-3">
     <div class="container px-2 mx-auto flex flex-wrap items-center justify-between">
       <div class="w-full relative flex justify-between lg:w-auto  px-0 lg:static lg:block lg:justify-start">
-        <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white" href="/">
-          CocinandoConAmor
+        <a class="text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-gray-200 antialiased" href="/">
+          <h1 class="tracking-wide">Cocinando Con Amor</h1>
         </a>
-        <button class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" v-on:click="toggleNavbar()">
+        <button class="text-gray-200 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" v-on:click="toggleNavbar()">
           <i class="fas fa-bars"></i>
         </button>
       </div>
       <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
         <ul class="flex flex-col lg:flex-row list-none ml-auto">
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-              <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span class="ml-2">Share</span>
+            <a href="https://www.facebook.com/salvamividahn" target="_blank"
+              class="px-3 py-2 flex items-center uppercase text-sm font-bold leading-snug text-gray-200 hover:opacity-75">
+              <i class="fab fa-facebook-square text-lg" /><span class="ml-2">Facebook</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-              <i class="fab fa-twitter text-lg leading-lg text-white opacity-75" /><span class="ml-2">Tweet</span>
+            <a href="https://www.instagram.com/salvamivida" target="_blank"
+              class="px-3 py-2 flex items-center uppercase text-sm font-bold leading-snug text-gray-200 hover:opacity-75">
+              <i class="fab fa-instagram text-lg" /><span class="ml-2">Instagram</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-              <i class="fab fa-pinterest text-lg leading-lg text-white opacity-75" /><span class="ml-2">Pin</span>
+            <a href="https://www.salvamivida.org" target="_blank"
+              class="px-3 py-2 flex items-center uppercase text-sm font-bold leading-snug text-gray-200 hover:opacity-75">
+              <i class="fas fa-globe text-lg" /><span class="ml-2">SalvaMiVida</span>
             </a>
           </li>
         </ul>
@@ -35,6 +38,17 @@
 <script>
 export default {
   name: "navbar",
+  head() {
+    return {
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Lobster&display=swap'
+        }
+
+      ]
+    }
+  },
   data() {
     return {
       showMenu: false
@@ -47,3 +61,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.my-red-bg {
+  background: #f61f16;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+}
+</style>

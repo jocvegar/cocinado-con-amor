@@ -47,20 +47,18 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
   axios: {
   },
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
     extend (config, ctx) {
+    }
+  },
+  pwa: {
+    manifest: {
+      name: 'Cocinando Con Amor',
+      short_name: 'Cocinando Con Amor',
+      theme_color: "#f61f16",
+      background_color: "#f61f16"
     }
   },
 }

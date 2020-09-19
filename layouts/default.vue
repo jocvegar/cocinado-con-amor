@@ -1,17 +1,32 @@
 <template>
-  <div>
+  <div class="flex flex-col justify-between">
     <Navbar/>
     <nuxt />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from '~/components/Navbar.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
-    Navbar
-  }
+    Navbar,
+    Footer,
+  },
+  head() {
+      return {
+        title: "Cocinando Con Amor",
+        meta: [
+          {
+            hid: 'Cocinado Con Amor',
+            name: 'Cocinado Con Amor',
+            content: 'Cocinado Con Amor a beneficio de la Fundación Honduraña Para El Niño Con Cancer'
+          }
+        ]
+      }
+    }
 }
 </script>
 
