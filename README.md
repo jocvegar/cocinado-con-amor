@@ -24,3 +24,4 @@
 * [https://cocinandoconamor.netlify.app/chefs/cocinando-con-stella-artois-0i1h18](https://cocinandoconamor.netlify.app/chefs/cocinando-con-stella-artois-0i1h18)
 * [https://cocinandoconamor.netlify.app/chefs/rollos-de-carne-y-camarones-en-salsa-hawaiana-2f2b1e](https://cocinandoconamor.netlify.app/chefs/rollos-de-carne-y-camarones-en-salsa-hawaiana-2f2b1e)
 * [https://cocinandoconamor.netlify.app/chefs/cocina-arabe-23ef7d](https://cocinandoconamor.netlify.app/chefs/cocina-arabe-23ef7d)
+* [https://cocinandoconamor.netlify.app/chefs/cocina-francesa-fe4rfq](https://cocinandoconamor.netlify.app/chefs/cocina-francesa-fe4rfq)
