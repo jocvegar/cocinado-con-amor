@@ -5,7 +5,13 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'my-teal': '#78B7A7',
+      }
+    }
+  },
   variants: {},
   plugins: []
 }
