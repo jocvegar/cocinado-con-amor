@@ -54,11 +54,22 @@ export default {
     }
   },
   pwa: {
+    icon: {                                      
+      accessibleIcons: false                                      
+    },
+    meta: {                                      
+      theme_color: '#f61f16',
+      ogHost: 'https://cocinandoconamor.netlify.app',
+      nativeUI: true
+    },
     manifest: {
       name: 'Cocinando Con Amor',
       short_name: 'Cocinando Con Amor',
       theme_color: "#f61f16",
-      background_color: "#f61f16"
+      background_color: "#f61f16",
+      icons: [],
+      start_url: "/",
+
     }
   },
 }
