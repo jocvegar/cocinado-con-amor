@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Masa Madre y Pán Rústico",
+            title: "Cocinando Con Amor | Masa Madre y Pán Rústico",
         }
     }
 }

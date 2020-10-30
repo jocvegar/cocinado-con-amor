@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Brunch para Todos",
+            title: "Cocinando Con Amor | Brunch para Todos",
         }
     }
 }

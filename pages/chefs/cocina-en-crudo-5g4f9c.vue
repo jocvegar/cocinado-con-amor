@@ -26,7 +26,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Cocina en Crudo",
+            title: "Cocinando Con Amor | Cocina en Crudo",
         }
     }
 }

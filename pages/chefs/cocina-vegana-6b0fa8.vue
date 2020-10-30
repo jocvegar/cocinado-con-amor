@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Cocina Vegana",
+            title: "Cocinando Con Amor | Cocina Vegana",
         }
     }
 }

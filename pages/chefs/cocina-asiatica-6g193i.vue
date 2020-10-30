@@ -26,7 +26,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Cocina Asiática",
+            title: "Cocinando Con Amor | Cocina Asiática",
         }
     }
 }

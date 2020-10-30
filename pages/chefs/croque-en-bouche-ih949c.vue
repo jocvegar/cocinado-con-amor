@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Croque en Bouche",
+            title: "Cocinando Con Amor | Croque en Bouche",
         }
     }
 }

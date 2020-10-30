@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Cocinando con Café",
+            title: "Cocinando Con Amor | Cocinando con Café",
         }
     }
 }

@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Meriendas Saludables para Niños",
+            title: "Cocinando Con Amor | Meriendas Saludables para Niños",
         }
     }
 }

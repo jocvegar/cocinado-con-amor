@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Rollos de Carne y Camarones en Salsa Hawaiana",
+            title: "Cocinando Con Amor | Rollos de Carne y Camarones en Salsa Hawaiana",
         }
     }
 }

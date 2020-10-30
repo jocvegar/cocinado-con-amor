@@ -30,7 +30,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Cocina Isleña",
+            title: "Cocinando Con Amor | Cocina Isleña",
         }
     }
 }

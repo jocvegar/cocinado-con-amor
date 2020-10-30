@@ -26,7 +26,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Salsa y Aderezos para Tus Recetas",
+            title: "Cocinando Con Amor | Salsa y Aderezos para Tus Recetas",
         }
     }
 }

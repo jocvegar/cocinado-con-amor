@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Nutrición Deportiva",
+            title: "Cocinando Con Amor | Nutrición Deportiva",
         }
     }
 }

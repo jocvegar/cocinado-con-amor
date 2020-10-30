@@ -15,7 +15,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Parilla Tailandesa",
+            title: "Cocinando Con Amor | Parilla Tailandesa",
         }
     }
 }

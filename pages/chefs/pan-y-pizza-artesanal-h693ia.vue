@@ -22,7 +22,7 @@
 export default {
     head() {
         return {
-            title: "Cocinando con Amor | Pan y Pizza Artesanal",
+            title: "Cocinando Con Amor | Pan y Pizza Artesanal",
         }
     }
 }
