@@ -17,3 +17,13 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    head() {
+        return {
+            title: "Cocinando con Amor | Rollos de Carne y Camarones en Salsa Hawaiana",
+        }
+    }
+}
+</script>

@@ -63,13 +63,12 @@ export default {
       nativeUI: true
     },
     manifest: {
-      name: 'Cocinando Con Amor',
-      short_name: 'Cocinando Con Amor',
+      name: 'Cocinando con Amor',
+      short_name: 'Cocinando con Amor',
       theme_color: "#f61f16",
       background_color: "#f61f16",
       icons: [],
       start_url: "/",
-
     }
   },
 }

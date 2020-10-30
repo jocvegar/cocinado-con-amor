@@ -17,3 +17,13 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    head() {
+        return {
+            title: "Cocinando Con Amor | Técnicas en Decoraciones para Pasteles",
+        }
+    }
+}
+</script>

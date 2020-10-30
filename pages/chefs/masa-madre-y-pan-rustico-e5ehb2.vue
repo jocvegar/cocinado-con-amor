@@ -17,3 +17,13 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    head() {
+        return {
+            title: "Cocinando con Amor | Masa Madre y Pán Rústico",
+        }
+    }
+}
+</script>

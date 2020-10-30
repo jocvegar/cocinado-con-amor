@@ -21,3 +21,13 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    head() {
+        return {
+            title: "Cocinando con Amor | Cocina con Stella Artois",
+        }
+    }
+}
+</script>

@@ -21,3 +21,13 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    head() {
+        return {
+            title: "Cocinando con Amor | Salsa y Aderezos para Tus Recetas",
+        }
+    }
+}
+</script>
