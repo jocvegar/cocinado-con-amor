@@ -1,7 +1,12 @@
 <template>
   <div class="h-auto flex flex-col items-center mx-auto">
-    <img class="object-contain md:max-w-3xl h-32 mx-auto mb-8 -mt-2" 
+    <img class="object-contain md:max-w-3xl h-32 mx-auto mb-6 sm:mb-10 -mt-2" 
       src="@/assets/images/logo.png"/>
+
+    <h3 class="sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center tracking-tight mb-8 sm:mb-12 text-black px-8">
+      ¡Gracias por tu apoyo y sigue cocinando con amor! <br>
+      Disfruta de todas nuestras clases que ayudaron a los niños con cáncer.
+    </h3>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-8 sm:px-12 mb-12">
       <nuxt-link to="chefs/pan-y-pizza-artesanal-h693ia" class="mb-14">
@@ -112,3 +117,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+h3 {
+  font-family: 'Lobster', cursive;
+}
+</style>
